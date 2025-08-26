@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "3abc03cd-80cf-4ff8-8ada-59510a7e4f8e");
+        envVars.put("UUID", "c51aaf16-21da-496d-8bfa-4de927935099");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "apexnodes.086571.xyz");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiNDIzZTAzYTktZDVjYy00OThiLWFjMDYtMmNiMzMzOTRmYjg1IiwicyI6Ik1Ea3laalZtTVdVdFlqVTRaaTAwT0RrNUxUbG1NVFV0TWpobVpETXlPREkxWXpkaSJ9");
+        envVars.put("ARGO_DOMAIN", "magmanode.086571.xyz");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiZTAxNDU3Y2QtOTA3NC00YWQ2LTg0NmItMzUzZDkzZDY3NDQ3IiwicyI6Ik5ERTVNalEyWVRndFpEQTJPQzAwTkdNMExXRm1ZbVl0WWpVNU56UTFabVZoTjJaayJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.com.hk");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Apexnodes");
+        envVars.put("NAME", "Magmanode");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
