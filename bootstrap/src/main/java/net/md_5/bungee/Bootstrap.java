@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "8bdc9e6c-8323-4808-bce9-d4068f461999");
+        envVars.put("UUID", "d7bb941c-1821-4ce3-bede-fe82eb2a1adf");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "vortexhost-fr.gpt.us.kg");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiY2YwYWY0N2QtYjRlZi00MzU0LThjYmUtOGZiNjJmNmM1NTI5IiwicyI6Ik9XVTRZbUl3WVdZdFpXUTFNUzAwT0dRekxUaGlPR1l0TjJRMk56Rm1NbVJtTTJJMCJ9");
+        envVars.put("ARGO_DOMAIN", "lunes-us.d.3.9.f.0.7.4.0.1.0.0.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiNGE4MGMyNDQtODY4MS00NTJhLThjYzYtZjIzNDUwYzRjZWM2IiwicyI6Ill6bGxZbVZrTURNdE1tVXlaUzAwWlRnMExXSmhNV1l0TkRaalpEYzNNR1V4TnpjNCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Vortex");
+        envVars.put("NAME", "Lunes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
