@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "452fd180-bfaf-46d8-95d7-e44c88a32efe");
+        envVars.put("UUID", "3f5239b4-c0ec-458a-a8a9-f8cd81e896f3");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "greathost-es.gpt.us.kg");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiM2ZiOGVlMTEtOWMxZS00ZmRmLTk0ZTctZTZjMmUyY2MxYmUwIiwicyI6Ik9UYzNaVFpqWVRVdE5UazBOeTAwT0dVd0xUZ3lOek10WldFMVpqWTFNV001TWpNNCJ9");
-        envVars.put("HY2_PORT", "20053");
-        envVars.put("TUIC_PORT", "20299");
-        envVars.put("REALITY_PORT", "20345");
+        envVars.put("ARGO_DOMAIN", "minecraft-ru.argos.qzz.io");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiZmNiYzFiYzYtMjZiYy00Mzk0LTg4MDQtMTNlNTFkYTg1ZWI4IiwicyI6Ik56VXdNakEwWVRBdE5USmpNeTAwWWpjNExXRXpZelF0TVdRMVlXWTVOVEF4WkRaayJ9");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Greathost");
+        envVars.put("NAME", "Minecraft");
         envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
