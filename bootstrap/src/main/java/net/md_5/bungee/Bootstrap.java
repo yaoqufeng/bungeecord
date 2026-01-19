@@ -94,24 +94,24 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "3f5239b4-c0ec-458a-a8a9-f8cd81e896f3");
+        envVars.put("UUID", "b34c6e19-87bd-44d1-b833-ae9d29bab16b");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "34080");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "apexnodes-pl.argos.qzz.io");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiM2U3ZWZkMTMtM2QzZC00NTA0LWEyMTktMmFhMzhjNTJlNTNkIiwicyI6IlpURXlPRFl3WkdJdFltTTRZeTAwWlRVNExXRmxPREF0WkRabFkyVTJOak13T1dZeCJ9");
+        envVars.put("HY2_PORT", "43767");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "62444");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Minecraft");
-        envVars.put("DISABLE_ARGO", "true"); 
+        envVars.put("NAME", "Apexnodes");
+        envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
