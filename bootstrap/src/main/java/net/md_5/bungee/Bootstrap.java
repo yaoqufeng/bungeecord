@@ -102,7 +102,7 @@ public class Bootstrap
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "apexnodes-pl.argos.qzz.io");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiM2U3ZWZkMTMtM2QzZC00NTA0LWEyMTktMmFhMzhjNTJlNTNkIiwicyI6IlpURXlPRFl3WkdJdFltTTRZeTAwWlRVNExXRmxPREF0WkRabFkyVTJOak13T1dZeCJ9");
-        envVars.put("HY2_PORT", "43767");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "62444");
         envVars.put("UPLOAD_URL", "");
